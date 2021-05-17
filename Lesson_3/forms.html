@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Forms</title>
+</head>
+<body>
+ <form>
+  <fieldset>
+   <legend>Profile Info</legend>
+
+   <label>Name: </label>
+   <input type="text" placeholder="Your full name here">
+   <br>
+
+   <label>Email: </label>
+   <input type="email" placeholder="example@gmail.com">
+   <br>
+
+   <label>Password: </label>
+   <input type="password">
+   <br><br>
+
+   <label>Gender: </label>
+   <br>
+   <input type="radio" name="gender">Male
+   <br>
+   <input type="radio" name="gender">Female
+   <br><br>
+
+   <label>Type of computer: </label>
+   <br>
+   <input type="checkbox">I have a laptop computer
+   <br>
+   <input type="checkbox">I have a desktop computer
+   <br><br>
+
+   <label>Age: </label>
+   <br>
+   <select name="years">
+    <option value="age">0 - 20</option>
+    <option value="age">20 - 40</option>
+    <option value="age">40+</option>
+   </select>
+   <br><br>
+
+   <label>Biography</label>
+   <br>
+   <textarea name="text" cols="30" rows="3"></textarea>
+   <br><br>
+   
+   <input type="submit" value="Save my info">
+   <input type="reset" value="Clear form">
+  </fieldset>
+ </form>
+</body>
+</html>
