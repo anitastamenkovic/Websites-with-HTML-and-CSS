@@ -1,5 +1,5 @@
 # Course Build Websites from Scratch with HTML & CSS
- Course from the site Udemy
+ Course from the site Udemy by Brad Hussey
 
 What you'll learn
 
